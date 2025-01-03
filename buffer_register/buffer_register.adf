@@ -1,0 +1,40 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=buffer_register
+[Library]
+buffer_register=.\buffer_register\buffer_register.lib
+[$LibMap$]
+buffer_register=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/flipflop.v=-1
+/bread_board.v=-1
+/register_4bit.v=-1
+/register_8bit.v=-1
+/register_16bit.v=-1
+/control_unit.v=-1
+[Files.Data]
+.\src\flipflop.v=Verilog Source Code
+.\src\bread_board.v=Verilog Source Code
+.\src\register_4bit.v=Verilog Source Code
+.\src\register_8bit.v=Verilog Source Code
+.\src\register_16bit.v=Verilog Source Code
+.\src\control_unit.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

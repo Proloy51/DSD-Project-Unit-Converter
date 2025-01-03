@@ -1,0 +1,6 @@
+.\src\flipflop.v
+.\src\bread_board.v
+.\src\register_4bit.v
+.\src\register_8bit.v
+.\src\register_16bit.v
+.\src\control_unit.v

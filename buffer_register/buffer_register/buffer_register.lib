@@ -1,0 +1,99 @@
+timestamp=1733732515721
+
+[~A]
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/bread_board.v=0*110398*111219
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/control_unit.v=0*137339*138145
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/flipflop.v=0*108838*109384
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/register.v=0*26677*27271
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/register_16bit.v=0*115604*116204
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/register_4bit.v=0*112279*112878
+C:/Users/prolo/OneDrive/Desktop/4-2/DSD Lab/buffer_register/buffer_register/src/register_8bit.v=0*113940*114539
+LastVerilogToplevel=register_8bit
+ModifyID=74
+Version=74
+
+[~MFT]
+0=6|0buffer_register.mgf|138145|95441
+1=4|1buffer_register.mgf|180532|168719
+3=8|3buffer_register.mgf|130527|120340
+
+[$root]
+A/$root=22|||1*180110
+BinW64/$root=3*129192
+SLP=3*129307
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216fc0baea03c9a822c8350949a597844a9
+
+[ControlLogic]
+A/ControlLogic=22|../src/control_unit.v|23|1*180532
+BinW64/ControlLogic=3*129375
+R=../src/control_unit.v|23
+SLP=3*130527
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1603d33171c0d7a5e92c055d21e8848d63f2e1b2e0e7a10337c8329586a713e40549801952311ace2b19a29d0d4d1b7b
+
+[ControlLogic_tb]
+A/ControlLogic_tb=22|../src/bread_board.v|68|1*102236
+BinW64/ControlLogic_tb=3*70455
+R=../src/bread_board.v|68
+SLP=3*71657
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|848ca547d9917cad6bea59d4393d16c528532248b6aeb0bc1ec3067de596fa918b3d2fc864d031b311b52d893ae94964
+
+[bread_board]
+A/bread_board=22|../src/bread_board.v|23|1*139844
+BinW64/bread_board=3*96975
+R=../src/bread_board.v|23
+SLP=3*97608
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|515d06278a6d9b36b62e1e82d28547e91318c6a7986d7dfaa4e40e563bdd415c4c680809b7550f6da79ea42ce416c667
+
+[flipflop]
+A/flipflop=22|../src/flipflop.v|49|1*138373
+BinW64/flipflop=3*96232
+R=../src/flipflop.v|49
+SLP=3*96590
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|e9408e9444cea9f9d65bc524f6f560676b28b4e53bff683f3c57bc95b85ee1bcabf3e5aac02ba03d8a8ed72c366ba954
+
+[register]
+A/register=22|../src/register.v|27|1*19354
+BinW64/register=3*12388
+R=../src/register.v|27
+SLP=3*13066
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5fa1b53f1300c4835386baab9d0c635e1096506f0a00bc334a610cd78bf011dd767adb0acc45459f6535663d2c041958
+
+[register_16bit]
+A/register_16bit=22|../src/register_16bit.v|26|1*145537
+BinW64/register_16bit=3*100614
+R=../src/register_16bit.v|26
+SLP=3*101245
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c1a5893ce6c58474a4e920c1cc4c8ae8c3767e96d70be0749f9aa7e86dbcd617d6d52ff9afa787bc6a9bcb71a34e10a1
+
+[register_4bit]
+A/register_4bit=22|../src/register_4bit.v|53|1*142323
+BinW64/register_4bit=3*98284
+R=../src/register_4bit.v|53
+SLP=3*98913
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2509097e07099ca4321270208a3a52f75039d9a53ea7df2228f0051934241bd05ad0fef6c84b6bb8055e5e5be8be1228
+
+[register_8bit]
+A/register_8bit=22|../src/register_8bit.v|26|1*143930
+BinW64/register_8bit=3*99449
+R=../src/register_8bit.v|26
+SLP=3*100079
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2725640d824a6e014b90e7110b5c52e2d7bab8538c1d7f01146a08e5d7f06ac52aaeb0e14ca7b305590018a4747587bf
+
+[register_array]
+A/register_array=22|../src/register.v|54|1*26211
+BinW64/register_array=3*16868
+R=../src/register.v|54
+SLP=3*17498
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7dff4a35286ab96e3e4241d690f19a5ad5ef8474b8d39ad52fac538071981c356816bcbbfc6e04e6571a32ace0101eee
+
+[~U]
+$root=12|0*136821|
+ControlLogic=12|0*137083|
+ControlLogic_tb=12|0*82658||0x10
+bread_board=12|0*110217||0x10
+flipflop=12|0*108628||0x10
+register=12|0*20066|
+register_16bit=12|0*115377|
+register_4bit=12|0*112055|
+register_8bit=12|0*113716||0x10
+register_array=12|0*26451|
