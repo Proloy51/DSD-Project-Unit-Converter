@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+buffer_register=.\buffer_register\buffer_register.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+buffer_register=1

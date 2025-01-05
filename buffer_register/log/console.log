@@ -1,0 +1,255 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work buffer_register $dsn/src/control_unit.v $dsn/src/bread_board.v
+# Warning: VCP2590 bread_board.v : (38, 1): Undefined port conversion_type in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (40, 1): Undefined port input_value in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (41, 1): Undefined port alu_op in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (42, 1): Undefined port factor in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (43, 1): Undefined port value in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (44, 1): Undefined port ready in module ControlLogic.
+# Unit top modules: bread_board.
+# Compile success 0 Errors 6 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work buffer_register $dsn/src/bread_board.v
+# Warning: VCP2590 bread_board.v : (45, 1): Undefined port next_state_select in module Decoder.
+# Unit top modules: bread_board.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (43): Port 'next_state_select' not found in buffer_register.Decoder instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (43): Port 'next_state_select' not found in buffer_register.Decoder instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (43): Port 'next_state_select' not found in buffer_register.Decoder instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (43): Port 'next_state_select' not found in buffer_register.Decoder instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (43): Port 'next_state_select' not found in buffer_register.Decoder instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (43): Port 'next_state_select' not found in buffer_register.Decoder instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+asim -O5 +access +r +m+bread_board bread_board
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work buffer_register $dsn/src/bread_board.v
+# Warning: VCP2590 bread_board.v : (38, 1): Undefined port conversion_type in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (40, 1): Undefined port input_value in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (41, 1): Undefined port alu_op in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (42, 1): Undefined port factor in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (43, 1): Undefined port value in module ControlLogic.
+# Warning: VCP2590 bread_board.v : (44, 1): Undefined port ready in module ControlLogic.
+# Unit top modules: bread_board.
+# Compile success 0 Errors 6 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'conversion_type' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'input_value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'alu_op' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'factor' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'value' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# ELBREAD: Error: ELBREAD_0097 bread_board.v (35): Port 'ready' not found in buffer_register.ControlLogic instantiated in unit buffer_register.bread_board.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.

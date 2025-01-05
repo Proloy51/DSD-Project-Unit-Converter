@@ -1,0 +1,6 @@
+WARNING VCP2590 "Undefined port conversion_type in module ControlLogic." "C:/Users/Topu/Downloads/Compressed/DSD-Project-Unit-Converter-master/buffer_register/src/bread_board.v" 38 1
+WARNING VCP2590 "Undefined port input_value in module ControlLogic." "C:/Users/Topu/Downloads/Compressed/DSD-Project-Unit-Converter-master/buffer_register/src/bread_board.v" 40 1
+WARNING VCP2590 "Undefined port alu_op in module ControlLogic." "C:/Users/Topu/Downloads/Compressed/DSD-Project-Unit-Converter-master/buffer_register/src/bread_board.v" 41 1
+WARNING VCP2590 "Undefined port factor in module ControlLogic." "C:/Users/Topu/Downloads/Compressed/DSD-Project-Unit-Converter-master/buffer_register/src/bread_board.v" 42 1
+WARNING VCP2590 "Undefined port value in module ControlLogic." "C:/Users/Topu/Downloads/Compressed/DSD-Project-Unit-Converter-master/buffer_register/src/bread_board.v" 43 1
+WARNING VCP2590 "Undefined port ready in module ControlLogic." "C:/Users/Topu/Downloads/Compressed/DSD-Project-Unit-Converter-master/buffer_register/src/bread_board.v" 44 1
